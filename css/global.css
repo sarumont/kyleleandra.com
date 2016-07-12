@@ -1,0 +1,50 @@
+/*
+ * Global CSS definitions
+ */
+a {
+    text-decoration: none;
+}
+a:link {
+    color: rgb( 200, 194, 190 ); 
+}
+a:visited {
+    color: rgb( 200, 194, 190 ); 
+}
+a:hover {
+    color: white;
+}
+
+img { 
+	border: none;
+}
+
+/*
+ * Lightbox CSS
+ */
+#overlay{ 
+	background-image: url( /gfx/overlay.png ); 
+}
+
+* html #overlay {
+	background-color: #000;
+	background-color: transparent;
+	background-image: url( blank.gif );
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src="/gfx/overlay.png", sizingMethod="scale" );
+}
+
+#lightbox {
+	background-color:#655;
+	padding: 10px;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
+}
+#lightboxDetails{
+	font-size: 0.8em;
+	padding-top: 0.4em;
+}	
+#lightboxCaption { 
+	float: left; 
+}
+#keyboardMsg { 
+	float: right; 
+}
